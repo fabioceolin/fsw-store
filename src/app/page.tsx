@@ -1,5 +1,5 @@
-import Image from "next/image";
+"use client";
 
 export default function Home() {
-  return <div className="bg-blue-50 text-red-500">test</div>;
+  return <div></div>;
 }
