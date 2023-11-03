@@ -22,7 +22,7 @@ const ProductItem = ({ product }: ProductItemProps) => {
         />
         {product.discountPercent > 0 && (
           <Badge className="absolute left-2 top-2 px-2 py-[2px]">
-            <ArrowDownIcon size={14} /> {product.discountPercent}
+            <ArrowDownIcon size={14} /> {product.discountPercent}%
           </Badge>
         )}
       </div>
